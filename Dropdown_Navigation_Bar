@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;;
+        }
+        .first
+        {
+            margin: 16px 20px;
+        }
+        ul li
+        {
+            list-style: none;
+            float: left;
+            width: 200px;
+            height: 30px;
+            padding: 5px;
+        }
+        ul li a
+        {
+            text-decoration: none;
+            display: block;
+            background-color: #138D75;
+            color: antiquewhite;
+            padding: 10px;
+        }
+        ul li ul li
+        {
+            display: none;
+        }
+        ul li:hover ul li
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+     <div class = "first">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Faculty</a>
+                <ul>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Department</a>
+                <ul>
+                    <li><a href="#">Submenu 1</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                    <li><a href="#">Submenu 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+     </div>
+</body>
+</html>
